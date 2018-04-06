@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TakeCameraActivity">
+
+    <ImageView
+        android:id="@+id/guide_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/guide_1"
+        android:visibility="gone"/>
+
+    <SurfaceView
+        android:id="@+id/main_camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/tip_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/btn_tip_selector"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/take_pic_btn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/btn_take_pic_selector"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/head_guide_img"
+        android:layout_width="250dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/head_guide"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/btn_back"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/result_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="matrix"
+        android:visibility="gone"/>
+
+<!--
+    <RelativeLayout
+        android:id="@+id/help_guide_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/transparent">
+
+        <ImageView
+            android:id="@+id/guide_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/guide_1" />
+
+        <ImageView
+            android:id="@+id/help_tip_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/btn_tip_selector" />
+
+        <ImageView
+            android:id="@+id/help_take_pic_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/btn_take_pic_selector" />
+
+        <ImageView
+            android:id="@+id/help_head_guide_img"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/head_guide" />
+
+        <ImageView
+            android:id="@+id/help_back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/btn_back" />
+
+    </RelativeLayout>-->
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/view_background"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/shake_value"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/clear_shake"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_height="50dp"
+        android:text="Clear Shake" />
+
+</LinearLayout>
